@@ -58,7 +58,7 @@ export default function StepperProjects() {
 
   return (
     <Grid style={{marginTop: 55}} container spacing={3}>
-      <Grid item xs={6}>
+      <Grid item xs={4}>
         <div className={classes.root}>
           <Paper square elevation={0} className={classes.header}>
             <Typography align="center">{projectData[activeStep].title}</Typography>
@@ -104,12 +104,12 @@ export default function StepperProjects() {
           />
         </div>
       </Grid>
-      <Grid item xs={6}>
+      <Grid item xs={8}>
         <Paper className={classes.paper}>
           <Typography align="center" variant="h3">
             {projectData[activeStep].title}
           </Typography>
-          <Typography variant="h5" elevation={3}>
+          <Typography variant="h6" elevation={3}>
             {projectData[activeStep].background}
           </Typography>
           <Divider variant="middle" style={{marginBottom: 5}}/>

@@ -32,9 +32,6 @@ class ContactDialog extends Component {
   }
   
   UNSAFE_componentWillUpdate(nextProps) {
-    // console.log(nextProps)
-    // console.log('update P ', this.props.openDialog)
-    // console.log('update S ', this.state.open)
     if (this.state.open !== this.props.openDialog ){
       this.props.openDialogFunc()
       this.setState({ open: this.props.openDialog})
@@ -108,7 +105,7 @@ class ContactDialog extends Component {
               <ListItemText>
               <Button onClick={() =>
                 window.open(
-                  'https://github.com/GregatGit/',
+                  'https://github.com/GregatGit?tab=repositories',
                   '_blank'
                 )}>
               https://github.com/GregatGit/</Button></ListItemText>

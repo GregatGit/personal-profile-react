@@ -39,7 +39,7 @@ export default function About() {
             alt="profile gregDuncan"
           />
           </Grid>
-          <Grid item xs={6}>
+          <Grid item xs={8}>
             {displayAbout(about)}
           </Grid>
           <Grid item xs>
