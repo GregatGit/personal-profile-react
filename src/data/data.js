@@ -10,13 +10,14 @@ import dailyQuote from '../img/quote.JPG'
 import gameOfLife from '../img/GameOfLife.JPG'
 import simon from '../img/simon-game.JPG'
 import calculator from '../img/calculator.JPG'
+import projects from '../img/projects.JPG'
 
 export const aboutPics = { gregProfile, sunny }
 
 export const projectStatus = [
   `This project is still being worked on. It is not up and running.`,
   `This project is up and running. It is no longer being updated but left to show eariler coding.`,
-  `This project is up and running. It is complete but will be updated when needed.`,
+  `This project is up and running. It is complete but will continue be updated.`,
   `This project is still being worked on. It is up running to demonstrate how the code is working so far.`,
 ]
 const temp = {
@@ -28,7 +29,17 @@ const temp = {
   code: '',
 }
 export const projectData = [
-  
+  {
+    title: `Projects Page`,
+    status: projectStatus[2],
+    background: `Welcome to the projects page. These are some the earlier and later projects I’ve been working or worked on. Earlier I depended on jQuery and Bootstrap. I now prefer to use vanilla js and react.
+    I haven’t included any of the tutorials that I’ve coded as I followed along as they’re not really mine. Some of them I put on GitHub but make it very clear that it’s someone else’s work.
+    The buttons below will open the projects or their code repositories. This time the “open project” button will take you to this personal-profile’s code and the “code button” will open my GitHub repository.
+    `,
+    img: projects,
+    url: 'https://github.com/GregatGit/personal-profile-react',
+    code: 'https://github.com/GregatGit?tab=repositories',
+  },
   {
     title: 'The Iron Throne',
     status: projectStatus[3],
