@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.js": "/personal-profile-react/static/js/main.af78134c.chunk.js",
+    "main.js.map": "/personal-profile-react/static/js/main.af78134c.chunk.js.map",
+    "runtime~main.js": "/personal-profile-react/static/js/runtime~main.218f9d76.js",
+    "runtime~main.js.map": "/personal-profile-react/static/js/runtime~main.218f9d76.js.map",
+    "static/js/2.ea26fb1e.chunk.js": "/personal-profile-react/static/js/2.ea26fb1e.chunk.js",
+    "static/js/2.ea26fb1e.chunk.js.map": "/personal-profile-react/static/js/2.ea26fb1e.chunk.js.map",
+    "index.html": "/personal-profile-react/index.html",
+    "precache-manifest.137e6aa461c01551411276ad80decf82.js": "/personal-profile-react/precache-manifest.137e6aa461c01551411276ad80decf82.js",
+    "service-worker.js": "/personal-profile-react/service-worker.js",
+    "static/media/GameOfLife.JPG": "/personal-profile-react/static/media/GameOfLife.3b300187.JPG",
+    "static/media/Sunny1.jpg": "/personal-profile-react/static/media/Sunny1.feace2c8.jpg",
+    "static/media/calculator.JPG": "/personal-profile-react/static/media/calculator.e83164e6.JPG",
+    "static/media/greg.jpg": "/personal-profile-react/static/media/greg.bdadccaf.jpg",
+    "static/media/iron-throne.jpg": "/personal-profile-react/static/media/iron-throne.4769959f.jpg",
+    "static/media/markdown-previewer.JPG": "/personal-profile-react/static/media/markdown-previewer.c937b25c.JPG",
+    "static/media/pomodoro.JPG": "/personal-profile-react/static/media/pomodoro.3b61f4cd.JPG",
+    "static/media/projects.JPG": "/personal-profile-react/static/media/projects.70a48e40.JPG",
+    "static/media/quote.JPG": "/personal-profile-react/static/media/quote.2434a9c4.JPG",
+    "static/media/recipebox.JPG": "/personal-profile-react/static/media/recipebox.0705e9db.JPG",
+    "static/media/simon-game.JPG": "/personal-profile-react/static/media/simon-game.af9c12c3.JPG",
+    "static/media/tictactoe.JPG": "/personal-profile-react/static/media/tictactoe.c4206fb7.JPG",
+    "static/media/wiki.JPG": "/personal-profile-react/static/media/wiki.e410d5bf.JPG"
+  }
+}
