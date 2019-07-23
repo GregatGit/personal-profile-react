@@ -20,7 +20,7 @@ function SKillsList() {
 
   function MakeRow(a = 'x', b = 'y', c = 'z') {
     return (
-      <Grid container item xs={12} spacing={3}>
+      <Grid  container item xs={12} spacing={3}>
         <Grid item xs={4}>
           <Paper className={classes.paper}>{a}</Paper>
         </Grid>

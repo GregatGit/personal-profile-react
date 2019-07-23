@@ -51,7 +51,7 @@ class ContactDialog extends Component {
     return (
       <Fragment>
         <Fab onClick={this.handleToggle} aria-label="Add" size="small">
-          <PhoneIcon color="primary" />
+          <PhoneIcon color="secondary" />
         </Fab>
         <Dialog open={this.state.open} onClose={this.handleToggle}>
           <DialogTitle id="form-dialog-title">Contact Details</DialogTitle>

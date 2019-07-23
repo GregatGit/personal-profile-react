@@ -27,6 +27,7 @@ class App extends Component {
           pages={pages} 
           showPage={this.changePage} openDialog={dialogOpen}
           openDialogFunc={this.openDialog}
+          gutterBottom
         />
         {this.state.page === 'welcome' ? <Welcome /> : ''}
         {this.state.page === 'skills' ? <Skills /> : ''}

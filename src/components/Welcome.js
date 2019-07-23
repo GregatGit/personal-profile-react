@@ -13,10 +13,18 @@ import {
 } from '@material-ui/core'
 import PhoneIcon from '@material-ui/icons/Phone'
 import { content } from '../data/data'
+
 const useStyles = makeStyles(theme => ({
   avatar: {
     margin: 3,
   },
+  container: {
+    paddingTop: 50,   
+    textAlign: 'center'
+  },
+  listItem: {
+    textAlign: "center"
+  }
 }))
 const Welcome = () => {
   const classes = useStyles()
@@ -24,9 +32,9 @@ const Welcome = () => {
   return (
     <Fragment>
       <CssBaseline />
-      <Container maxWidth="md" style={{ paddingTop: 50 }}>
-        <Typography component="div" style={{ backgroundColor: '#cfe8fc' }}>
-          <div style={{ textAlign: 'center' }}>
+      <Container maxWidth="md" className={classes.container} >
+        <Typography component="div" >
+          <div >
             <h1>Hello!</h1>
             {content.map((para, index) => (
               <Typography key={index} paragraph>
@@ -35,7 +43,7 @@ const Welcome = () => {
             ))}
 
             <List >
-              <ListItem style={{textAlign: 'center'}}>
+              <ListItem className={classes.listItem}>
                 <ListItemAvatar>
                   <Avatar className={classes.avatar}>
                     <PhoneIcon />
