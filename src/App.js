@@ -10,7 +10,7 @@ import Projects from './components/StepperProjects'
 class App extends Component {
   state = {
     pages: ['welcome', 'skills', 'projects', 'contact', 'About'],
-    page: 'skills',
+    page: 'welcome',
     dialogOpen: false,
   }
   changePage = index => {

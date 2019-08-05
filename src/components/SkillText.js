@@ -1,7 +1,6 @@
 import React, { Fragment } from 'react'
 import { Typography } from '@material-ui/core'
 import { skillsTextA, skillsTextB } from '../data/data'
-import SkillList from './SkillsList'
 import SkillListA from './SkillListA'
 
 const SkillText = () => {
