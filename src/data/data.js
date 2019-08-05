@@ -20,14 +20,14 @@ export const projectStatus = [
   `This project is up and running. It is complete but will continue be updated.`,
   `This project is still being worked on. It is up running to demonstrate how the code is working so far.`,
 ]
-const temp = {
-  title: ``,
-  status: projectStatus[1],
-  background: ``,
-  img: markdown,
-  url: '',
-  code: '',
-}
+// const temp = {
+//   title: ``,
+//   status: projectStatus[1],
+//   background: ``,
+//   img: markdown,
+//   url: '',
+//   code: '',
+// }
 export const projectData = [
   {
     title: `Projects Page`,
@@ -161,7 +161,7 @@ export const skillsList = [
 ]
 
 export const content = [
-  `I am Greg from Brisbane looking to get full-time work in
+  `I am Greg Duncan from Brisbane looking to get full-time work in
 Front-End development.`,
   `I started learning to program in C then C# but
 eventually found myself in the world of javascript. I have worked on

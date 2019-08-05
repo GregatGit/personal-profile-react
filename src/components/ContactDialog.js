@@ -48,6 +48,7 @@ class ContactDialog extends Component {
 
   render() {
     const { classes } = this.props
+    const iconColor = '#FAFAFA'
     return (
       <Fragment>
         <Fab onClick={this.handleToggle} aria-label="Add" size="small">
@@ -82,7 +83,7 @@ class ContactDialog extends Component {
                 <Icon 
                   path={mdiLinkedin} 
                   size={1.3}
-                  color="#FAFAFA"
+                  color={iconColor}
                 />
                 </Avatar>
               </ListItemAvatar>
@@ -98,7 +99,7 @@ class ContactDialog extends Component {
                 <Icon 
                   path={mdiGithubCircle} 
                   size={1.65}
-                  color="#FAFAFA"
+                  color={iconColor}
                 />
                 </Avatar>
               </ListItemAvatar>
@@ -116,7 +117,7 @@ class ContactDialog extends Component {
             <Button
               onClick={() => console.log('you clicked')}
               varient="outlined"
-              color="primary"
+              color="secondary"
             >
               Links will open a new tab
             </Button>

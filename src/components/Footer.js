@@ -37,8 +37,9 @@ const useStyles = makeStyles(theme => ({
   },
 }))
 
-export default function Footer(props) {
+function Footer(props) {
   const classes = useStyles()
+  const iconColor = '#3F51B5'
   return (
     <Fragment>
       <CssBaseline />
@@ -54,7 +55,7 @@ export default function Footer(props) {
               }
               className={classes.avatar}
             >
-              <Icon path={mdiLinkedin} size={1.3} color="#3F51B5" />
+              <Icon path={mdiLinkedin} size={1.3} color={iconColor} />
             </Avatar>
           </Tooltip>
           <Tooltip title="Will open gitHub in new tab" placement="top">
@@ -67,38 +68,38 @@ export default function Footer(props) {
               }
               className={classes.avatar}
             >
-              <Icon path={mdiGithubCircle} size={1.65} color="#3F51B5" />
+              <Icon path={mdiGithubCircle} size={1.65} color={iconColor} />
             </Avatar>
           </Tooltip>
           <Avatar className={classes.avatar}>
-            <Icon path={mdiReact} size={1.3} color="#3F51B5" />
+            <Icon path={mdiReact} size={1.3} color={iconColor} />
           </Avatar>
           <Avatar className={classes.avatar}>
-            <Icon  path={mdiLanguageCss3} size={1.3} color="#3F51B5" />
+            <Icon path={mdiLanguageCss3} size={1.3} color={iconColor} />
           </Avatar>
           <Avatar className={classes.avatar}>
-            <Icon path={mdiVisualStudioCode} size={1.3} color="#3F51B5" />
+            <Icon path={mdiVisualStudioCode} size={1.3} color={iconColor} />
           </Avatar>
           <div className={classes.grow} />
           <Avatar className={classes.avatar}>
-            <Icon path={mdiNodejs} size={1.3} color="#3F51B5" />
+            <Icon path={mdiNodejs} size={1.3} color={iconColor} />
           </Avatar>
           <Avatar className={classes.avatar}>
-            <Icon path={mdiLanguageHtml5} size={1.3} color="#3F51B5" />
+            <Icon path={mdiLanguageHtml5} size={1.3} color={iconColor} />
           </Avatar>
           <Avatar className={classes.avatar}>
-            <Icon path={mdiLanguageJavascript} size={1.3} color="#3F51B5" />
+            <Icon path={mdiLanguageJavascript} size={1.3} color={iconColor} />
           </Avatar>
           <Tooltip title="Send me an email" placement="top">
             <a href="mailto:gregdd@outlook.com?subject=contact_from_website&body=Hello">
               <Avatar className={classes.avatar}>
-                <Icon color="#3F51B5" path={mdiEmail} size={1.3} />
+                <Icon color={iconColor} path={mdiEmail} size={1.3} />
               </Avatar>
             </a>
           </Tooltip>
           <Tooltip title="0422 347 204" placement="top">
             <Avatar className={classes.avatar}>
-              <Icon path={mdiPhone} size={1.3} color="#3F51B5" />
+              <Icon path={mdiPhone} size={1.3} color={iconColor} />
             </Avatar>
           </Tooltip>
         </Toolbar>
@@ -106,3 +107,5 @@ export default function Footer(props) {
     </Fragment>
   )
 }
+
+export default Footer
