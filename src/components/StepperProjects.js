@@ -39,7 +39,7 @@ const useStyles = makeStyles(theme => ({
     width: 'auto',
     padding: 15,
     marginRight: 20,
-    marginBottom: 40
+    marginBottom: 50
   }
 }))
 

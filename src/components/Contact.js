@@ -29,6 +29,9 @@ const useStyles = makeStyles(theme => ({
   listItem: {
     textAlign: 'center',
   },
+  paper: {
+    marginTop: 25
+  }
 }))
 const Contact = () => {
   const classes = useStyles()
@@ -37,7 +40,7 @@ return (
   <Fragment>
     <CssBaseline />
     <Container maxWidth="md" className={classes.container}>
-      <Paper>
+      <Paper className={classes.paper}>
         <List>
           <ListItem>
             <ListItemAvatar>

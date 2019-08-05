@@ -23,7 +23,11 @@ const useStyles = makeStyles(theme => ({
 }))
 const Welcome = () => {
   const classes = useStyles()
-
+  let text = content.map((para, index) => (
+    <Typography key={index} paragraph>
+      {para}
+    </Typography>
+  ))
   return (
     <Fragment>
       <CssBaseline />
@@ -31,11 +35,7 @@ const Welcome = () => {
         <Typography component="div">
           <div>
             <h1>Hello!</h1>
-            {content.map((para, index) => (
-              <Typography key={index} paragraph>
-                {para}
-              </Typography>
-            ))}
+            {text}
             <Divider variant="middle" />
           </div>
         </Typography>
