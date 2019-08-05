@@ -39,7 +39,8 @@ const useStyles = makeStyles(theme => ({
     width: 'auto',
     padding: 15,
     marginRight: 20,
-  },
+    marginBottom: 40
+  }
 }))
 
 export default function StepperProjects() {
@@ -104,7 +105,7 @@ export default function StepperProjects() {
           />
         </div>
       </Grid>
-      <Grid item xs={8}>
+      <Grid  item xs={8}>
         <Paper className={classes.paper}>
           <Typography align="center" variant="h3">
             {projectData[activeStep].title}
