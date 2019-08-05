@@ -2,6 +2,7 @@ import React, { Fragment } from 'react'
 import { Typography } from '@material-ui/core'
 import { skillsTextA, skillsTextB } from '../data/data'
 import SkillList from './SkillsList'
+import SkillListA from './SkillListA'
 
 const SkillText = () => {
   const renderPara = arr => {
@@ -13,7 +14,7 @@ const SkillText = () => {
     <Fragment>
       <h2 style={{ textAlign: 'center' }}>My Technology Stack</h2>
       {renderPara(skillsTextA)}
-      <SkillList />
+      <SkillListA />
       {renderPara(skillsTextB)}
     </Fragment>
   )
