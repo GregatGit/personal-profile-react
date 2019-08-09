@@ -11,6 +11,7 @@ import gameOfLife from '../img/GameOfLife.JPG'
 import simon from '../img/simon-game.JPG'
 import calculator from '../img/calculator.JPG'
 import projects from '../img/projects.JPG'
+import drumMachine from '../img/drum-machine.JPG'
 
 export const aboutPics = { gregProfile, sunny }
 
@@ -51,6 +52,14 @@ export const projectData = [
     img: ironThroneImg,
     url: 'https://gregatgit.github.io/how-to-vote/',
     background: `We were all pretty upset by the Game of Thrones ending. To take a little of the sting out of it, an app that gives you a vote on who should sit on the Iron Throne. It’s built with React, Redux, Create-React-App, Redux, Semantic-UI. It was fun to build due to the subject matter. The hardest challenge is making the cards suit the style of Game of Thrones. For that reason, it is not currently finished. It gave me plenty of practice grabbing Semantic Html then converting it into JSX.`,
+  },
+  {
+    title: `Drum Machine`,
+    status: projectStatus[3],
+    background: `A freeCodeCamp challenge to build a fun app that lets you plays the drums. The drums need to be fired off by mouse click or keyboard. Getting the sound to work was the most difficult part. I am not yet using the html audio element which I will continue to work on. The project started me using transitions. This was built with React, Create-React-App and simple css.`,
+    img: drumMachine,
+    url: 'https://gregatgit.github.io/drum-machine/',
+    code: 'https://github.com/GregatGit/drum-machine',
   },
   {
     title: 'Recipe Box',
