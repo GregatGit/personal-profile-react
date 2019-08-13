@@ -16,10 +16,10 @@ import drumMachine from '../img/drum-machine.JPG'
 export const aboutPics = { gregProfile, sunny }
 
 export const projectStatus = [
-  `This project is still being worked on. It is not up and running.`,
-  `This project is up and running. It is no longer being updated but left to show eariler coding.`,
-  `This project is up and running. It is complete but will continue be updated.`,
-  `This project is still being worked on. It is up running to demonstrate how the code is working so far.`,
+  `This project is still being worked on. It is not up and running.`, //0
+  `This project is up and running. It is no longer being updated but left to show eariler coding.`, //1
+  `This project is up and running. It is complete but will continue be updated.`, //2
+  `This project is still being worked on. It is up running to demonstrate how the code is working so far.`, //3
 ]
 // const temp = {
 //   title: ``,
@@ -55,8 +55,8 @@ export const projectData = [
   },
   {
     title: `Drum Machine`,
-    status: projectStatus[3],
-    background: `A freeCodeCamp challenge to build a fun app that lets you plays the drums. The drums need to be fired off by mouse click or keyboard. Getting the sound to work was the most difficult part. I am not yet using the html audio element which I will continue to work on. The project started me using transitions. This was built with React, Create-React-App and simple css.`,
+    status: projectStatus[2],
+    background: `A freeCodeCamp challenge to build a fun app that lets you plays the drums. The drums need to be fired off by mouse click or keyboard. Getting the sound working was the most challenging aspect. You also had to use an audio element from the HTML, not just a sound file that you could reference from somewhere else. The project started me using transitions. This was built with React, Create-React-App and simple css.`,
     img: drumMachine,
     url: 'https://gregatgit.github.io/drum-machine/',
     code: 'https://github.com/GregatGit/drum-machine',
