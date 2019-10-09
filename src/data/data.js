@@ -12,6 +12,7 @@ import simon from '../img/simon-game.JPG'
 import calculator from '../img/calculator.JPG'
 import projects from '../img/projects.JPG'
 import drumMachine from '../img/drum-machine.JPG'
+import goShop from '../img/goShop.JPG'
 
 export const aboutPics = { gregProfile, sunny }
 
@@ -40,6 +41,15 @@ export const projectData = [
     img: projects,
     url: 'https://github.com/GregatGit/personal-profile-react',
     code: 'https://github.com/GregatGit?tab=repositories',
+  },
+  {
+    title: `Go-Shop`,
+    subtitle: `A Shopping List for You.`,
+    status: projectStatus[2],
+    background: `Before, when I went shopping, I would text myself a list. I finally have an app up and going for just that. The most valuable lesson I learnt was planning your app in more detail. I had all different views on paper but when I build that it was clear that it wasn't practical. I had to redesign and use React Router. After that the project got much simpler to work on.`,
+    img: goShop,
+    url: 'https://gregatgit.github.io/go-shop/',
+    code: 'https://github.com/GregatGit/go-shop/',
   },
   {
     title: 'The Iron Throne',
