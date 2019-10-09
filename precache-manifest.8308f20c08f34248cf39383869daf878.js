@@ -1,15 +1,15 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9fce76c7187e1d4c786c39439f69d1eb",
+    "revision": "fd3827cfb8ce0a7f2113581c649c52f5",
     "url": "/personal-profile-react/index.html"
   },
   {
-    "revision": "0cf28a89b9801a4083b7",
-    "url": "/personal-profile-react/static/js/2.580ac068.chunk.js"
+    "revision": "2d0827489259b2667708",
+    "url": "/personal-profile-react/static/js/2.88c0b2ea.chunk.js"
   },
   {
-    "revision": "ad6a556baea58eec605d",
-    "url": "/personal-profile-react/static/js/main.4a3d25d1.chunk.js"
+    "revision": "91899c9ae55c25f1aca5",
+    "url": "/personal-profile-react/static/js/main.f4506310.chunk.js"
   },
   {
     "revision": "f38cfe3c3a219b90535f",
@@ -30,6 +30,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "646a1fb64ef42a265caa130318a5a7a9",
     "url": "/personal-profile-react/static/media/drum-machine.646a1fb6.JPG"
+  },
+  {
+    "revision": "2618398aaa647ac9c55f29101bb79e47",
+    "url": "/personal-profile-react/static/media/goShop.2618398a.JPG"
   },
   {
     "revision": "bdadccafe6b454891b4cb71cd9b200a8",
