@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/personal-profile-react/static/js/main.f4506310.chunk.js",
-    "main.js.map": "/personal-profile-react/static/js/main.f4506310.chunk.js.map",
+    "main.js": "/personal-profile-react/static/js/main.bff9be39.chunk.js",
+    "main.js.map": "/personal-profile-react/static/js/main.bff9be39.chunk.js.map",
     "runtime~main.js": "/personal-profile-react/static/js/runtime~main.218f9d76.js",
     "runtime~main.js.map": "/personal-profile-react/static/js/runtime~main.218f9d76.js.map",
-    "static/js/2.88c0b2ea.chunk.js": "/personal-profile-react/static/js/2.88c0b2ea.chunk.js",
-    "static/js/2.88c0b2ea.chunk.js.map": "/personal-profile-react/static/js/2.88c0b2ea.chunk.js.map",
+    "static/js/2.ac52355d.chunk.js": "/personal-profile-react/static/js/2.ac52355d.chunk.js",
+    "static/js/2.ac52355d.chunk.js.map": "/personal-profile-react/static/js/2.ac52355d.chunk.js.map",
     "index.html": "/personal-profile-react/index.html",
-    "precache-manifest.8308f20c08f34248cf39383869daf878.js": "/personal-profile-react/precache-manifest.8308f20c08f34248cf39383869daf878.js",
+    "precache-manifest.6247ea07f2c02dee071195a97c6a8d8e.js": "/personal-profile-react/precache-manifest.6247ea07f2c02dee071195a97c6a8d8e.js",
     "service-worker.js": "/personal-profile-react/service-worker.js",
     "static/media/GameOfLife.JPG": "/personal-profile-react/static/media/GameOfLife.3b300187.JPG",
     "static/media/Sunny1.jpg": "/personal-profile-react/static/media/Sunny1.feace2c8.jpg",
@@ -23,6 +23,7 @@
     "static/media/recipebox.JPG": "/personal-profile-react/static/media/recipebox.0705e9db.JPG",
     "static/media/simon-game.JPG": "/personal-profile-react/static/media/simon-game.af9c12c3.JPG",
     "static/media/tictactoe.JPG": "/personal-profile-react/static/media/tictactoe.c4206fb7.JPG",
+    "static/media/todoLab.JPG": "/personal-profile-react/static/media/todoLab.c8c5e00d.JPG",
     "static/media/wiki.JPG": "/personal-profile-react/static/media/wiki.e410d5bf.JPG"
   }
 }
