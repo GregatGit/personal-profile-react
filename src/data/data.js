@@ -35,9 +35,7 @@ export const projectData = [
   {
     title: `Projects Page`,
     status: projectStatus[2],
-    background: `Welcome to the projects page. These are some the earlier and later projects I’ve been working or worked on. Earlier I depended on jQuery and Bootstrap. I now prefer to use vanilla js and react.
-    I haven’t included any of the tutorials that I’ve coded as I followed along as they’re not really mine. Some of them I put on GitHub but make it very clear that it’s someone else’s work.
-    The buttons below will open the projects or their code repositories. This time the “open project” button will take you to this personal-profile’s code and the “code button” will open my GitHub repository.
+    background: `Welcome to the projects page. These are the projects I’ve been working or worked on. Earlier I depended heavily on jQuery and Bootstrap. I now prefer to use vanilla js and react. I haven’t included any of the tutorials that I’ve coded as I followed along as they’re not really mine. Some of them I put on GitHub but make it very clear that it’s someone else’s work. The buttons below will open the projects or their code repositories. This time the “open project” button will take you to this personal-profile’s code and the “code button” will open my GitHub repository.
     `,
     img: projects,
     url: 'https://github.com/GregatGit/personal-profile-react',
@@ -110,7 +108,7 @@ export const projectData = [
     subtitle: 'A clock to work by',
     blurb: 'fsdgdg',
     about: `There is a time for work a and a time to rest - and you can choose how long.`,
-    background: `One of the early freeCodeCamp challenges that felt impossible at first. The biggest hurdle was understanding how to properly use setInterval(). The other resource that proved invaluble was freeCodeCamps Gitter forums. Ir was a great place to learn how to ask questions. The Pomodoro Clock was built with javaScript, bootstrap, jQuery at codepen.io. Codepen is a great place to start projects for beginners.`,
+    background: `One of the early freeCodeCamp challenges that felt impossible at first. The biggest hurdle was understanding how to properly use setInterval(). The other resource that proved invaluble was freeCodeCamps Gitter forums. A great place to learn how to ask questions. The Pomodoro Clock was built with javaScript, bootstrap, jQuery at codepen.io. Codepen is perfect to start projects for beginners.`,
     url: 'https://codepen.io/gregoverhere/full/VvgEQw',
     img: pomodoro,
     code: `https://codepen.io/gregoverhere/pen/VvgEQw`,
@@ -145,7 +143,7 @@ export const projectData = [
   {
     title: `Game of Life`,
     status: projectStatus[1],
-    background: `The challenge was to build Conway’s Game of Life. Once you figured out the maths and structure to make it work it turns out to be a lot simpler than first thought. The biggest thing I leant from this was to use create-react-app instead of building my own environment with webpack. Most of the hurdles I hit were with my set up. Since switching it’s made leaning and working with react so much easier.`,
+    background: `The challenge was to build Conway’s Game of Life. Once you figured out the maths and structure to make it work it turns out to be a lot simpler than first thought. An important lesson taken from this was to use create-react-app instead of building my own environment with webpack. Most of the hurdles I hit were with my Webpack set up. Since switching it’s made leaning and working with react so much easier.`,
     img: gameOfLife,
     url: 'https://gregatgit.github.io/game-of-life/',
     code: 'https://github.com/GregatGit/game-of-life',
@@ -153,7 +151,7 @@ export const projectData = [
   {
     title: `Quote of the Day`,
     status: projectStatus[1],
-    background: `An inspirational quote app that lets you randomly shuffle through its large array of quotes. If you like a quote the ‘tweet’ button lets you tweet it out. Once you have chosen a quote it will have to work its way through the rest of the quotes as the app avoids repeats. The most challenging aspect was implementing the tweeting of the quote right. It was built with jQuery, bootstrap and font-awesome.`,
+    background: `An inspirational quote app that lets you randomly shuffle through its large array of quotes. If you like a quote the ‘tweet’ button lets you tweet it out. Once you have chosen a quote it will have to work its way through the rest of the quotes as the app avoids repeats. The most challenging aspect was implementing the tweeting of the quote. It was built with jQuery, bootstrap and font-awesome.`,
     img: dailyQuote,
     url: 'https://codepen.io/gregoverhere/full/xwWevp',
     code: 'https://codepen.io/gregoverhere/pen/xwWevp',
