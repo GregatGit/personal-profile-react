@@ -13,6 +13,7 @@ import calculator from '../img/calculator.JPG'
 import projects from '../img/projects.JPG'
 import drumMachine from '../img/drum-machine.JPG'
 import goShop from '../img/goShop.JPG'
+import todoLab from '../img/todoLab.JPG'
 
 export const aboutPics = { gregProfile, sunny }
 
@@ -72,11 +73,20 @@ export const projectData = [
     code: 'https://github.com/GregatGit/drum-machine',
   },
   {
+    title: 'Todos Lab',
+    status: projectStatus[2],
+    subtitle: 'A simple todo list',
+    blurb: 'Just get it done',
+    code: 'https://github.com/GregatGit/todos-lab',
+    url: 'https://gregatgit.github.io/todos-lab/',
+    img: todoLab,
+    background: `I build this react/redux app to practice speed and only use classless components. Once the app was up and going I added Material-Ui. I wanted the colour of the Navbar to change once the all the todos were completed or deleted. Using Material-Ui in this project has given me other ideas on how to apply it in other apps and good practice at searching through the Material-Ui docs.`,
+  },
+  {
     title: 'Recipe Box',
     status: projectStatus[1],
     subtitle: 'Check out the recipes!',
     blurb: 'You can make and edit simple recipes',
-    about: 'A freeCodeCamp challenge using React',
     code: 'https://github.com/GregatGit/recipe-box-redux',
     url: 'https://gregatgit.github.io/recipe-box-redux/',
     img: recipebox,
