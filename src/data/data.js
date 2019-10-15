@@ -207,7 +207,7 @@ my code and see how my projects have turned out.`,
 export const about = [
   `I am an Australian who having travelled to many countries (but not enough) feel very at home in South East Qld. We have great weather all year round perfect for camping and going to the beach. I am hoping to do a lot more travel with Vietnam and Cambodia up next.`,
   `I am married and have three wonderful children. Our house is protected by the awesome Sunny, a cattle dog that loves life more than any other creature on Earth. I enjoy performing, mainly improv comedy, and play acoustic guitar. I am a big cinema fan with Harry Potter, James Bond and Star Wars at the top of my list.`,
-  `I love the javaScript world. Despite a few run ins where I vowed never to type a jot of code again, I always come back and get amazed at what you can do with it.`,
+  `I love the javaScript world. Despite a few run ins where I vowed never to type a jot of code again, I always come back and get amazed at what js can do.`,
 ]
 
 export const skillsTextA = [
