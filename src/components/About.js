@@ -50,9 +50,6 @@ export default function About() {
           />
           </Grid>
         </Grid>
-        
-        
-        
       </Paper>
     </div>
   )
