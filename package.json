@@ -10,11 +10,13 @@
     "@mdi/react": "^1.2.1",
     "babel-core": "^6.26.3",
     "gh-pages": "^2.1.1",
+    "material-auto-rotating-carousel": "^3.0.2",
     "react": "^16.10.2",
     "react-copy-to-clipboard": "^5.0.1",
     "react-dom": "^16.10.2",
     "react-icons": "^3.7.0",
     "react-scripts": "3.0.1",
+    "react-swipeable-views": "^0.13.3",
     "react-window": "^1.8.5"
   },
   "scripts": {

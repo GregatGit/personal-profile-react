@@ -5,7 +5,7 @@ import Skills from './components/Skills'
 import About from './components/About1'
 import Footer from './components/Footer'
 import Contact from './components/Contact'
-import Projects from './components/StepperProjects'
+import Projects from './components/Projects'
 
 class App extends Component {
   state = {
