@@ -1,15 +1,15 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "51ddc30a4045a0b5dc14711cce2d3ce2",
+    "revision": "4cbb1d926368464906b5f90a7b8f281a",
     "url": "/personal-profile-react/index.html"
   },
   {
-    "revision": "7a933e41531d95f159d0",
-    "url": "/personal-profile-react/static/js/2.5f400c54.chunk.js"
+    "revision": "64285e01ad5336364569",
+    "url": "/personal-profile-react/static/js/2.07a88bef.chunk.js"
   },
   {
-    "revision": "d6597b6e977be44f37c4",
-    "url": "/personal-profile-react/static/js/main.a482bd0c.chunk.js"
+    "revision": "48971edbae0db004b36c",
+    "url": "/personal-profile-react/static/js/main.b811c30f.chunk.js"
   },
   {
     "revision": "f38cfe3c3a219b90535f",
@@ -74,6 +74,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "c8c5e00d22d3fcac9033bb20f65f099d",
     "url": "/personal-profile-react/static/media/todoLab.c8c5e00d.JPG"
+  },
+  {
+    "revision": "c5ef9b069b433a42d292ec1aa8844c44",
+    "url": "/personal-profile-react/static/media/vue-todos.c5ef9b06.JPG"
   },
   {
     "revision": "e410d5bf4a754551651455795194f9f5",
