@@ -189,7 +189,6 @@ export const skillsList = [
   'Html',
   'JSX',
   'Material-UI',
-  'Semantic-UI',
   'Chrome Dev Tools',
   'Google',
   'React & Redux Dev Tools',
