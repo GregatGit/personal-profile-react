@@ -14,6 +14,7 @@ import projects from '../img/projects.JPG'
 import drumMachine from '../img/drum-machine.JPG'
 import goShop from '../img/goShop.JPG'
 import todoLab from '../img/todoLab.JPG'
+import todoVue from '../img/vue-todos.JPG'
 
 export const aboutPics = { gregProfile, sunny }
 
@@ -35,7 +36,7 @@ export const projectData = [
   {
     title: `Projects Page`,
     status: projectStatus[2],
-    background: `Welcome to the projects page. These are the projects I’ve been working or worked on. Earlier I depended heavily on jQuery and Bootstrap. I now prefer to use vanilla js and react. I haven’t included any of the tutorials that I’ve coded as I followed along as they’re not really mine. Some of them I put on GitHub but make it very clear that it’s someone else’s work. The buttons below will open the projects or their code repositories. This time the “open project” button will take you to this personal-profile’s code and the “code button” will open my GitHub repository.
+    background: `Welcome to the projects page. These are the projects I’ve been working or worked on. Earlier I depended heavily on jQuery and Bootstrap. I now prefer to use vanilla js, react and vue. I haven’t included any of the tutorials that I’ve coded as I followed along as they’re not really mine. Some of them I put on GitHub but make it very clear that it’s someone else’s work. The buttons below will open the projects or their code repositories. This time the “open project” button will take you to this personal-profile’s code and the “code button” will open my GitHub repository.
     `,
     img: projects,
     url: 'https://github.com/GregatGit/personal-profile-react',
@@ -49,6 +50,15 @@ export const projectData = [
     img: goShop,
     url: 'https://gregatgit.github.io/go-shop/',
     code: 'https://github.com/GregatGit/go-shop/',
+  },
+  {
+    title: `Vue Todos`,
+    subtitle: `My first Vue project`,
+    status: projectStatus[2],
+    background: `This is my first app using Vue.js. Vue is similar to React but requires different thinking. It also incorporates VueX as store and I also used Bootstrap 4`,
+    img: todoVue,
+    url: 'https://todos-vue-a46b4.firebaseapp.com/',
+    code: 'https://github.com/GregatGit/todos-vue',
   },
   {
     title: 'The Iron Throne',
@@ -171,8 +181,11 @@ export const skillsList = [
   'Create-React-App',
   'Redux',
   'React-Router',
+  'Vue',
+  'Firebase',
   'Vanilla.js',
   'Css',
+  'Bootstrap',
   'Html',
   'JSX',
   'Material-UI',
@@ -193,8 +206,9 @@ Front-End development.`,
   `I started learning to program in C then C# but
 eventually found myself in the world of javascript. I have worked on
 projects using Devexpress, built on the Apache Cordova platform.`,
-  `Now I build projects using React and Vanilla.js bootstrapped with
-create-react-app.`,
+  `I build projects using Vanilla.js, React bootstrapped with
+create-react-app and Vue.js using the vue-cli`,
+  `I use Google's Firebase as a back-end for databases and authorisation.`,
   `I have studied networking configuring Cisco routers and
 Windows Active Directory. I completed the Front-End Development
 Certificate at FreeCodeCamp and continue to study web development through
@@ -218,6 +232,7 @@ Create-React-App environment with a redux store.`,
   `I was using the
 Semantic-UI library in projects but I have switched to Material-UI due to its
 ease of installing and integration in create-react-app.`,
+  `I now use Vue.js with the Vue CLI and utilising bootstrap 4.`,
   `These are the tools and technologies I use on a regular coding basis:`,
 ]
 
